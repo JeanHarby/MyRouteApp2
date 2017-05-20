@@ -113,6 +113,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 // Adding new item to the ArrayList
                 MarkerPoints.add(point);
                 LatLng currentLocationPoint = new LatLng(mLastLocation.getLatitude(),mLastLocation.getLongitude());
+                //Adding Current Locations as Marker on map
                 MarkerPoints.add(currentLocationPoint);
 
                 // Creating MarkerOptions
